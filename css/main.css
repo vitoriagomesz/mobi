@@ -4,6 +4,35 @@
     box-sizing: border-box;
 }
 
+/* INICIO A */
+.mb-titulo {
+    padding: 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.mb-position-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mb-img-persona {
+    width: 232px;
+    height: 244px;
+    margin: 30px auto;
+    border-radius: 15px;
+    display: flex;
+}
+
+.mb-text-card {
+    font-family: 'Hind';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+
 /* CLASSES UTILITÁRIAS */
 
 /* background principal */
@@ -15,6 +44,7 @@
 .mb-text-center {
     text-align: center;
 }
+
 .mb-text-destaque {
     font-family: 'Hind', sans-serif;
     font-weight: 600;
@@ -22,6 +52,7 @@
     line-height: 48px;
     color: #FFF;
 }
+
 .mb-text-dark-blue {
     font-family: 'Hind', sans-serif;
     font-weight: 400;
@@ -29,6 +60,7 @@
     line-height: 24px;
     color: #192C4F;
 }
+
 .mb-text-blue {
     font-family: 'Hind' sans-serif;
     font-weight: 700;
@@ -36,6 +68,7 @@
     line-height: 35px;
     color: #77BBED;
 }
+
 .mb-text-gray {
     font-family: 'Hind';
     font-weight: 400;
@@ -53,6 +86,7 @@
     background: #101D32;
     border-radius: 20px;
 }
+
 .mb-btn {
     font-family: 'Hind', sans-serif;
     font-size: 22px;
@@ -62,28 +96,34 @@
     height: 60px;
     margin: 10px;
 }
+
 .mb-btn-main {
     background-color: #F9B233;
     border: 2px solid #F9B233;
     color: #192C4F;
 }
+
 .mb-btn-main:hover {
     background-color: #F29E07;
     border: 2px solid #F29E07;
 }
+
 .mb-btn-main-press {
     background-color: #DB8F07;
 }
+
 .mb-btn-second {
     border: 2px solid #F9B233;
     background-color: transparent;
     color: #FFF;
 }
+
 .mb-btn-second:hover {
     border: 2px solid #FFF;
     background-color: #FFF;
     color: #192C4F;
 }
+
 .mb-btn-second-press {
     background-color: #DADADA;
     color: #192C4F;
@@ -98,11 +138,13 @@
     border-radius: 15px;
     margin: 30px;
 }
+
 .mb-container-position-retangulo {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .mb-background-retangulo {
     width: 743px;
     height: 720px;
@@ -115,12 +157,14 @@
     align-items: center;
     justify-content: center;
 }
+
 .mb-background-retangulo-darkblue {
     width: 1285px;
     height: 822px;
     background: #192C4F;
     border-radius: 15px;
 }
+
 .mb-input-login-cadastro {
     width: 571px;
     height: 54px;
@@ -130,6 +174,7 @@
     margin: 10px;
     padding: 15px;
 }
+
 .mb-question-pp {
     width: 1026px;
     height: 64px;
@@ -137,12 +182,14 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
 }
+
 .mb-question-help {
     width: 588px;
     height: 72px;
     background: #77BBED;
     border-radius: 15px;
 }
+
 .mb-seta-voltar {
     width: 74px;
     height: 74px;
@@ -159,9 +206,11 @@
 .mb-margin-10 {
     margin: 10px;
 }
+
 .mb-margin-bottom-20 {
     margin-bottom: 20px;
 }
+
 .mb-margin-top-20 {
     margin-top: 20px;
 }

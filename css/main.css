@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* CLASSES UTILITÁRIAS */
+
+/* background principal */
+.mb-bgd-main {
+    background-color: #192C4F;
+}
+
+/* config textos */
+.mb-text-center {
+    text-align: center;
+}
+.mb-text-destaque {
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: #FFF;
+}
+.mb-text-dark-blue {
+    font-family: 'Hind', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #192C4F;
+}
+.mb-text-blue {
+    font-family: 'Hind' sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 35px;
+    color: #77BBED;
+}
+.mb-text-gray {
+    font-family: 'Hind';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-decoration-line: underline;
+    color: rgba(218, 218, 218, 0.6);
+    cursor: pointer;
+}
+
+/* botões */
+.mb-btn-home-moto {
+    width: 172px;
+    height: 154px;
+    background: #101D32;
+    border-radius: 20px;
+}
+.mb-btn {
+    font-family: 'Hind', sans-serif;
+    font-size: 22px;
+    font-weight: medium;
+    border-radius: 10px;
+    width: 342px;
+    height: 60px;
+    margin: 10px;
+}
+.mb-btn-main {
+    background-color: #F9B233;
+    border: 2px solid #F9B233;
+    color: #192C4F;
+}
+.mb-btn-main:hover {
+    background-color: #F29E07;
+    border: 2px solid #F29E07;
+}
+.mb-btn-main-press {
+    background-color: #DB8F07;
+}
+.mb-btn-second {
+    border: 2px solid #F9B233;
+    background-color: transparent;
+    color: #FFF;
+}
+.mb-btn-second:hover {
+    border: 2px solid #FFF;
+    background-color: #FFF;
+    color: #192C4F;
+}
+.mb-btn-second-press {
+    background-color: #DADADA;
+    color: #192C4F;
+}
+
+/* elementos mais usados */
+.mb-card {
+    width: 300px;
+    height: 400px;
+    border: 4px solid #F9B233;
+    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.15));
+    border-radius: 15px;
+    margin: 30px;
+}
+.mb-container-position-retangulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mb-background-retangulo {
+    width: 743px;
+    height: 720px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    /* backdrop-filter has minimal browser support */
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mb-background-retangulo-darkblue {
+    width: 1285px;
+    height: 822px;
+    background: #192C4F;
+    border-radius: 15px;
+}
+.mb-input-login-cadastro {
+    width: 571px;
+    height: 54px;
+    background: #FFFF;
+    border: 1px solid #FFF;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 15px;
+}
+.mb-question-pp {
+    width: 1026px;
+    height: 64px;
+    background: #77BBED;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+.mb-question-help {
+    width: 588px;
+    height: 72px;
+    background: #77BBED;
+    border-radius: 15px;
+}
+.mb-seta-voltar {
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    left: 85px;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* margins */
+.mb-margin-10 {
+    margin: 10px;
+}
+.mb-margin-bottom-20 {
+    margin-bottom: 20px;
+}
+.mb-margin-top-20 {
+    margin-top: 20px;
+}

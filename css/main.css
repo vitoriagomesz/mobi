@@ -33,6 +33,59 @@
     color: #FFFFFF;
 }
 
+/* INICIO B */
+.mb-container-btns {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mb-position-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mb-btn-except {
+    border-radius: 10px;
+    width: 342px;
+    height: 60px;
+    cursor: pointer;
+    margin: 10px;
+    font-family: 'Hind', sans-serif;
+    font-size: 23px;
+    font-weight: medium;
+    text-decoration: none;
+}
+
+.mb-btn-entrar {
+    border: 2px solid #F9B233;
+    background-color: #F9B233;
+    color: #192C4F;
+}
+
+.mb-btn-entrar:hover {
+    border: 2px solid #F29E07;
+    background-color: #F29E07;
+    font-size: 24px;
+}
+
+.mb-btn-criar {
+    border: 2px solid #F9B233;
+    background-color: transparent;
+    color: #FFF;
+}
+
+.mb-btn-criar:hover {
+    border: 2px solid #FFF;
+    background-color: #FFF;
+    color: #192C4F;
+    font-size: 24px;
+}
+
 /* CLASSES UTILITÁRIAS */
 
 /* background principal */

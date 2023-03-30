@@ -99,6 +99,33 @@
     align-items: center;
 }
 
+/* VERIFICAÇÃO EMAIL E */
+
+.mb-security-code {
+    align-items: center;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mb-img-codigo {
+    margin-top: 65px;
+    margin-bottom: 20px;
+}
+
+.mb-text-verificacaoemnail {
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: medium;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFF;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 70px;
+}
+
 /* CLASSES UTILITÁRIAS */
 
 /* background principal */
@@ -128,7 +155,7 @@
 }
 
 .mb-text-blue {
-    font-family: 'Hind' sans-serif;
+    font-family: 'Hind', sans-serif;
     font-weight: 700;
     font-size: 22px;
     line-height: 35px;
@@ -136,13 +163,22 @@
 }
 
 .mb-text-gray {
-    font-family: 'Hind';
+    font-family: 'Hind', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
     text-decoration-line: underline;
     color: rgba(218, 218, 218, 0.6);
     cursor: pointer;
+}
+
+.mb-text-white {
+    font-family: 'Hind', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 /* botões */
@@ -282,6 +318,10 @@
 
 .mb-margin-top-20 {
     margin-top: 20px;
+}
+
+.mb-margin-top-70 {
+    margin-top: 70px;
 }
 
 /* COISAS PARA FAZER */

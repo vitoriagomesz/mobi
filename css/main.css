@@ -107,10 +107,12 @@
     flex-direction: column;
     justify-content: center;
 }
+
 .mb-img-codigo {
     margin-top: 65px;
     margin-bottom: 20px;
 }
+
 .mb-text-verificacaoemnail {
     font-family: 'Hind';
     font-style: normal;
@@ -123,8 +125,8 @@
     margin-bottom: 70px;
 }
 
-/* BLUETOOTH */
-.mb-background-retangulo2-bluetooth{
+/* BLUETOOTH L */
+.mb-background-retangulo2-bluetooth {
     width: 560px;
     height: 400px;
     background: #192C4F;
@@ -135,8 +137,24 @@
     align-items: center;
     justify-content: center;
 }
-.mb-titulo-button{
+
+.mb-titulo-button {
     display: flex;
+}
+
+/* COLETAR DIGITAL F */
+.mb-position-text-digital {
+    width: 580px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* COLETAR DIGITAL I */
+.mb-position-center {
+    margin: 60px;
 }
 
 /* CLASSES UTILITÁRIAS */
@@ -266,9 +284,9 @@
 .mb-background-retangulo {
     width: 743px;
     height: 720px;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(30px);
-    /* backdrop-filter has minimal browser support */
+    background: rgba(231, 231, 231, 0.1);
+    backdrop-filter: blur(7.5px);
+    /* Note: backdrop-filter has minimal browser support */
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -336,6 +354,15 @@
 .mb-margin-top-70 {
     margin-top: 70px;
 }
+
+.mb-margin-top-110 {
+    margin-top: 110px;
+}
+
+.mb-margin-left-5 {
+    margin-left: 5px;
+}
+
 
 /* COISAS PARA FAZER */
 

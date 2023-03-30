@@ -150,6 +150,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 /* COLETAR DIGITAL I */
@@ -382,6 +383,10 @@
 
 .mb-margin-bottom-35 {
     margin-bottom: 35px;
+}
+
+.mb-margin-bottom-70 {
+    margin-bottom: 70px;
 }
 
 .mb-margin-top-20 {

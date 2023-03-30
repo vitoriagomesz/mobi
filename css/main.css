@@ -157,6 +157,36 @@
     margin: 60px;
 }
 
+/* AJUDA MOTORISTA M */
+.mb-config-text {
+    font-family: 'Hind';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #192C4F;
+}
+.mb-position-p {
+    display: flex;
+    justify-content: center;
+    margin: 98px 0 60px 0;
+}
+.mb-position-p1 {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0 60px 0;
+}
+.mb-position-btns-help {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.mb-position-btns-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* CLASSES UTILITÁRIAS */
 
 /* background principal */
@@ -324,6 +354,9 @@
     height: 72px;
     background: #77BBED;
     border-radius: 15px;
+    border: 1px solid #77BBED;
+    cursor: pointer;
+    margin: 0 15px 0 15px;
 }
 
 .mb-seta-voltar {
@@ -345,6 +378,10 @@
 
 .mb-margin-bottom-20 {
     margin-bottom: 20px;
+}
+
+.mb-margin-bottom-35 {
+    margin-bottom: 35px;
 }
 
 .mb-margin-top-20 {
@@ -370,3 +407,4 @@
 /* configurar select dos inputs */
 /* deixar inputs com restrição apenas para números? */
 /* ajustar seta voltar (página) com link */
+/* botão ajuda-motorista quando ser selicionado, ficar de outra cor */

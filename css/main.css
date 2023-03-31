@@ -10,11 +10,13 @@
     margin-top: 30px;
     text-align: center;
 }
+
 .mb-position-cards {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .mb-img-persona {
     width: 326px;
     height: 363px;
@@ -22,6 +24,7 @@
     border-radius: 15px;
     display: flex;
 }
+
 .mb-text-card {
     font-family: 'Hind';
     font-weight: 400;
@@ -39,11 +42,13 @@
     align-items: center;
     justify-content: center;
 }
+
 .mb-position-btns {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .mb-btn-except {
     border-radius: 10px;
     width: 538px;
@@ -55,21 +60,25 @@
     font-weight: medium;
     text-decoration: none;
 }
+
 .mb-btn-entrar {
     border: 2px solid #F9B233;
     background-color: #F9B233;
     color: #192C4F;
 }
+
 .mb-btn-entrar:hover {
     border: 2px solid #F29E07;
     background-color: #F29E07;
     font-size: 24px;
 }
+
 .mb-btn-criar {
     border: 2px solid #F9B233;
     background-color: transparent;
     color: #FFF;
 }
+
 .mb-btn-criar:hover {
     border: 2px solid #FFF;
     background-color: #FFF;
@@ -83,6 +92,7 @@
     width: 590px;
     margin: 40px 0;
 }
+
 .mb-position {
     display: flex;
     flex-direction: column;
@@ -97,10 +107,12 @@
     flex-direction: column;
     justify-content: center;
 }
+
 .mb-img-codigo {
     margin-top: 65px;
     margin-bottom: 20px;
 }
+
 .mb-text-verificacaoemnail {
     font-family: 'Hind';
     font-style: normal;
@@ -125,6 +137,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .mb-titulo-button {
     display: flex;
 }
@@ -153,26 +166,48 @@
     line-height: 48px;
     color: #192C4F;
 }
+
 .mb-position-p {
     display: flex;
     justify-content: center;
     margin: 98px 0 60px 0;
 }
+
 .mb-position-p1 {
     display: flex;
     justify-content: center;
     margin: 60px 0 60px 0;
 }
+
 .mb-position-btns-help {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
 }
+
 .mb-position-btns-bottom {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* CONFIGURAÇÕES O */
+.mb-text-configuracoes {
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.mb-position-container-configuracoes {
+    width: 500px;
+    height: 359px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 /* CLASSES UTILITÁRIAS */
@@ -186,6 +221,7 @@
 .mb-text-center {
     text-align: center;
 }
+
 .mb-text-destaque {
     font-family: 'Hind', sans-serif;
     font-weight: 600;
@@ -193,6 +229,7 @@
     line-height: 48px;
     color: #FFF;
 }
+
 .mb-text-dark-blue {
     font-family: 'Hind', sans-serif;
     font-weight: 400;
@@ -200,6 +237,7 @@
     line-height: 24px;
     color: #192C4F;
 }
+
 .mb-text-blue {
     font-family: 'Hind', sans-serif;
     font-weight: 700;
@@ -207,6 +245,7 @@
     line-height: 35px;
     color: #77BBED;
 }
+
 .mb-text-gray {
     font-family: 'Hind', sans-serif;
     font-weight: 400;
@@ -216,6 +255,7 @@
     color: rgba(218, 218, 218, 0.6);
     cursor: pointer;
 }
+
 .mb-text-white {
     font-family: 'Hind', sans-serif;
     font-weight: 400;
@@ -233,41 +273,55 @@
     border-radius: 20px;
     cursor: pointer;
 }
+
 .mb-btn {
     font-family: 'Hind', sans-serif;
     font-size: 22px;
-    font-weight: medium;
+    font-weight: 600;
     border-radius: 10px;
     width: 342px;
     height: 60px;
     margin: 10px;
     cursor: pointer;
 }
+
 .mb-btn-main {
     background-color: #F9B233;
     border: 2px solid #F9B233;
     color: #192C4F;
 }
+
 .mb-btn-main:hover {
     background-color: #F29E07;
     border: 2px solid #F29E07;
 }
+
 .mb-btn-main-press {
     background-color: #DB8F07;
 }
+
 .mb-btn-second {
     border: 2px solid #F9B233;
     background-color: transparent;
     color: #FFF;
 }
+
 .mb-btn-second:hover {
     border: 2px solid #FFF;
     background-color: #FFF;
     color: #192C4F;
 }
+
 .mb-btn-second-press {
     background-color: #DADADA;
     color: #192C4F;
+}
+
+.mb-btn-configuracoes {
+    width: 119px;
+    height: 119px;
+    background-color: #77BBED;
+    border-radius: 15px;
 }
 
 /* elementos mais usados */
@@ -278,12 +332,14 @@
     border-radius: 15px;
     margin: 30px;
 }
+
 .mb-container-position-retangulo {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .mb-background-retangulo {
     width: 743px;
     height: 720px;
@@ -295,12 +351,14 @@
     align-items: center;
     justify-content: center;
 }
+
 .mb-background-retangulo-darkblue {
     width: 1285px;
     height: 822px;
     background: #192C4F;
     border-radius: 15px;
 }
+
 .mb-input-login-cadastro {
     width: 571px;
     height: 54px;
@@ -310,6 +368,7 @@
     margin: 10px;
     padding: 15px;
 }
+
 .mb-question-pp {
     width: 1026px;
     height: 64px;
@@ -317,6 +376,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
 }
+
 .mb-question-help {
     width: 588px;
     height: 72px;
@@ -326,6 +386,7 @@
     cursor: pointer;
     margin: 0 15px 0 15px;
 }
+
 .mb-seta-voltar {
     width: 74px;
     height: 74px;
@@ -342,24 +403,31 @@
 .mb-margin-10 {
     margin: 10px;
 }
+
 .mb-margin-bottom-20 {
     margin-bottom: 20px;
 }
+
 .mb-margin-bottom-35 {
     margin-bottom: 35px;
 }
+
 .mb-margin-bottom-70 {
     margin-bottom: 70px;
 }
+
 .mb-margin-top-20 {
     margin-top: 20px;
 }
+
 .mb-margin-top-70 {
     margin-top: 70px;
 }
+
 .mb-margin-top-110 {
     margin-top: 110px;
 }
+
 .mb-margin-left-5 {
     margin-left: 5px;
 }
@@ -371,3 +439,4 @@
 /* deixar inputs com restrição apenas para números? */
 /* ajustar seta voltar (página) com link */
 /* botão ajuda-motorista quando ser selicionado, ficar de outra cor */
+/* fazer javascript do botão modo escurto/modo claro */

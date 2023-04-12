@@ -339,20 +339,41 @@ input:checked+.slider:before {
 }
 
 /* HOME MOTORISTA N */
+.mb-bgd-main-moto {
+    background-color: #1A345B;
+}
+
+/*.mb-background-sinal-moto {
+    position: absolute;
+    z-index: 0;
+}
+*/
+
+.mb-position-colunas-moto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    z-index: 100;
+    margin: 60px;
+}
 .mb-positino-box-one {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 30px;
 }
 .mb-home-mapa {
-    width: 548px;
-    height: 454px;
+    width: 583px;
+    height: 431px;
     background-color: #2196F3;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 .mb-btn-one-home-moto {
-    width: 154px;
-    height: 123px;
+    width: 162px;
+    height: 144px;
     background: #101D32;
     border-radius: 10px;
     cursor: pointer;
@@ -363,12 +384,34 @@ input:checked+.slider:before {
     flex-direction: row;
 }
 .mb-btn-ajuda-moto {
-    width: 551px;
-    height: 123px;
+    width: 583px;
+    height: 134px;
     background: #BF0000;
     border-radius: 10px;
     border: 1px solid #B10101;
     cursor: pointer;
+    margin: 10px 0 15px 0;
+}
+.mb-positino-box-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+.mb-position-btn-moto-two {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.mb-btns-linha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 584px;
+    height: 159px;
+    padding: 10px 0 10px 0;
+    margin: 10px 0 10px 0;
 }
 
 /* CLASSES UTILITÁRIAS */
@@ -570,6 +613,10 @@ input:checked+.slider:before {
     margin: 22px;
 }
 
+.mb-margin-15 {
+    margin: 10px;
+}
+
 .mb-margin-bottom-20 {
     margin-bottom: 20px;
 }
@@ -606,4 +653,4 @@ input:checked+.slider:before {
 /* ajustar seta voltar (página) com link */
 /* botão ajuda-motorista quando ser selicionado, ficar de outra cor */
 /* fazer javascript do botão modo escurto/modo claro */
-/* fazer javascript botão on/off
+/* fazer javascript botão on/off */

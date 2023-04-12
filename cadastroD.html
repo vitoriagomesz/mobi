@@ -24,24 +24,45 @@
         <div class="mb-background-retangulo">
             <p class="mb-text-destaque">CADASTRO</p>
 
-            <form class="mb-input-position">
-                <input class="mb-input-login-cadastro mb-text-dark-blue" type="text" name="nome"
-                    placeholder="Nome completo">
-                <input class="mb-input-login-cadastro mb-text-dark-blue" type="email" name="email" placeholder="E-mail">
-                <input class="mb-input-login-cadastro mb-text-dark-blue" type="text" name="login" placeholder="CNH">
-                <input class="mb-input-login-cadastro mb-text-dark-blue" type="text" name="login"
-                    placeholder="N° do crachá">
-                <input class="mb-input-login-cadastro mb-text-dark-blue" type="password" name="senha"
-                    placeholder="Senha">
-                <input class="mb-input-login-cadastro mb-text-dark-blue" type="password" name="senha"
-                    placeholder="Confirmar senha">
+            <form id="form" class="mb-input-position">
+                <div>
+                    <input class="mb-input-login-cadastro mb-text-dark-blue required" type="text" id="name"
+                        placeholder="Nome completo" oninput="nameValidate()">
+                    <span class="span-required">*Nome deve ter no mínimo 3 caracteres.</span>
+                </div>
+                <div>
+                    <input class="mb-input-login-cadastro mb-text-dark-blue required" type="email" id="email"
+                        placeholder="E-mail" oninput="emailValidate()">
+                    <span class="span-required">*Dígite um email válido.</span>
+                </div>
+                <div>
+                    <input class="mb-input-login-cadastro mb-text-dark-blue required" type="text" placeholder="CNH"
+                        id="cnh" oninput="cnhValidate()">
+                    <span class="span-required">*CNH deve ter no mínimo 10 caracteres.</span>
+                </div>
+                <div>
+                    <input class="mb-input-login-cadastro mb-text-dark-blue required" type="text"
+                        placeholder="N° do crachá" id="cracha" oninput="crachaValidate()">
+                    <span class="span-required">*N° do crachá deve ter no mínimo 8 caracteres.</span>
+                </div>
+                <div>
+                    <input class="mb-input-login-cadastro mb-text-dark-blue required" type="password"
+                        placeholder="Senha" id="senha" oninput="senhaValidate()">
+                    <span class="span-required">*Dígite uma senha com no mínimo 8 caracteres.</span>
+                </div>
+                <div>
+                    <input class="mb-input-login-cadastro mb-text-dark-blue required" type="password"
+                        placeholder="Confirmar senha" id="senha" oninput="comparePassword()">
+                    <span class="span-required">*As senhas devem ser compatíveis.</span>
+                </div>
             </form>
-
-            <a href="#">
-                <button class="mb-btn mb-btn-main mb-btn-main:hover">Próximo</button>
+            <a href="verificacaoE.html">
+                <button type="submit" class="mb-btn mb-btn-main mb-btn-main:hover">Próximo</button>
             </a>
         </div>
     </section>
 </body>
+<script src="js/main.js">
+</script>
 
 </html>

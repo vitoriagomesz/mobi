@@ -87,7 +87,6 @@
 }
 
 /* LOGIN C */
-
 .mb-input-position {
     width: 590px;
     margin: 40px 0;
@@ -97,6 +96,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* CADASTRO D */
+.span-required {
+    font-family: 'Hind';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #F9B233;
+    display: none;
+    margin: -5px 0 0 10px;
 }
 
 /* VERIFICAÇÃO EMAIL E */
@@ -428,10 +438,12 @@ input:checked+.slider:before {
     justify-content: center;
     margin: 60px;
 }
+
 .mb-linha {
     display: flex;
     flex-direction: row;
 }
+
 .mb-cameras-moto {
     width: 533px;
     height: 346px;
@@ -439,6 +451,7 @@ input:checked+.slider:before {
     margin: 20px;
     background-color: #B10101;
 }
+
 .mb-cameras-title {
     font-family: 'Hind';
     font-weight: 500;
@@ -600,11 +613,18 @@ input:checked+.slider:before {
 .mb-input-login-cadastro {
     width: 571px;
     height: 54px;
-    background: #FFFF;
+    background-color: #FFF;
     border: 1px solid #FFF;
+    color: #192C4F;
     border-radius: 15px;
     margin: 10px;
     padding: 15px;
+    outline: none;
+    transition: .3s;
+}
+
+.mb-input-login-cadastro:focus {
+    border: 2px solid #F29E07;
 }
 
 .mb-question-pp {

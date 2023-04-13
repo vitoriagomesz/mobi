@@ -7,7 +7,7 @@
 /* INICIO A */
 .mb-titulo {
     padding: 20px;
-    margin-top: 30px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -28,9 +28,13 @@
 .mb-text-card {
     font-family: 'Hind';
     font-weight: 400;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 64px;
     color: #FFFFFF;
+}
+
+.mb-a-inicio {
+   text-decoration: none; 
 }
 
 /* INICIO B */
@@ -56,8 +60,8 @@
     cursor: pointer;
     margin: 10px;
     font-family: 'Hind', sans-serif;
-    font-size: 23px;
-    font-weight: medium;
+    font-size: 28px;
+    font-weight: 500;
     text-decoration: none;
 }
 
@@ -67,10 +71,10 @@
     color: #192C4F;
 }
 
-.mb-btn-entrar:hover {
+.mb-btn-entrar:focus {
     border: 2px solid #F29E07;
     background-color: #F29E07;
-    font-size: 24px;
+    font-size: 27px;
 }
 
 .mb-btn-criar {
@@ -79,11 +83,11 @@
     color: #FFF;
 }
 
-.mb-btn-criar:hover {
+.mb-btn-criar:focus {
     border: 2px solid #FFF;
     background-color: #FFF;
     color: #192C4F;
-    font-size: 24px;
+    font-size: 27px;
 }
 
 /* LOGIN C */
@@ -400,11 +404,16 @@ input:checked+.slider:before {
 .mb-btn-ajuda-moto {
     width: 583px;
     height: 134px;
-    background: #BF0000;
+    background-color: #BF0000;
     border-radius: 10px;
-    border: 1px solid #B10101;
+    border: 1px solid #B40101;
     cursor: pointer;
     margin: 10px 0 15px 0;
+}
+
+.mb-btn-ajuda-moto:focus {
+    background-color: 1px solid #B40101;
+    font-size: 29px;
 }
 
 .mb-positino-box-two {
@@ -542,13 +551,10 @@ input:checked+.slider:before {
     color: #192C4F;
 }
 
-.mb-btn-main:hover {
+.mb-btn-main:focus {
     background-color: #F29E07;
     border: 2px solid #F29E07;
-}
-
-.mb-btn-main-press {
-    background-color: #DB8F07;
+    font-size: 21px;
 }
 
 .mb-btn-second {
@@ -557,15 +563,11 @@ input:checked+.slider:before {
     color: #FFF;
 }
 
-.mb-btn-second:hover {
+.mb-btn-second:focus {
     border: 2px solid #FFF;
     background-color: #FFF;
     color: #192C4F;
-}
-
-.mb-btn-second-press {
-    background-color: #DADADA;
-    color: #192C4F;
+    font-size: 21px;
 }
 
 .mb-btn-configuracoes {
@@ -700,9 +702,6 @@ input:checked+.slider:before {
 
 /* COISAS PARA FAZER */
 
-/* adiciar erro no formulário (CADASTRO D) */
-/* configurar select dos inputs */
-/* deixar inputs com restrição apenas para números? */
 /* ajustar seta voltar (página) com link */
 /* botão ajuda-motorista quando ser selicionado, ficar de outra cor */
 /* fazer javascript do botão modo escurto/modo claro */

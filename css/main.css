@@ -282,8 +282,6 @@ input:checked+.slider:before {
     border-radius: 50%;
 }
 
-
-
 /* COLETAR DIGITAL F */
 .mb-position-text-digital {
     width: 580px;
@@ -312,7 +310,7 @@ input:checked+.slider:before {
 .mb-position-p {
     display: flex;
     justify-content: center;
-    margin: 98px 0 60px 0;
+    margin: 160px 0 60px 0;
 }
 
 .mb-position-p1 {
@@ -784,6 +782,9 @@ input:checked+.slider:before {
     border: 1px solid #77BBED;
     cursor: pointer;
     margin: 0 15px 0 15px;
+}
+.mb-question-help:focus {
+    border: 3px solid #F9B233;
 }
 
 .mb-seta-voltar {

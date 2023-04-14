@@ -458,15 +458,17 @@ input:checked+.slider:before {
     height: 346px;
     border-radius: 20px;
     margin: 20px;
-    background-color: #B10101;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .mb-cameras-title {
     font-family: 'Hind';
     font-weight: 500;
-    font-size: 32px;
+    font-size: 26px;
     line-height: 51px;
-    color: #192C4F;
+    color: #FFF;
 }
 
 /* POLÍTICA DE PRIVACIDADE J */

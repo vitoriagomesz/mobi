@@ -151,135 +151,39 @@
     align-items: center;
     justify-content: center;
 }
-
-.mb-titulo-button {
+.mb-titulo-btn {
+    width: 570px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    flex-direction: row;
+    padding: 10px;
 }
-
-/* The switch - the box around the slider */
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-}
-
-/* Hide default HTML checkbox */
-.switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
-
-/* The slider */
-.slider {
-    position: absolute;
+.mb-btn-toggle-bluetooth {
+    width: 105px;
+    height: 45px;
+    appearance: none;
+    background-color: #FFF;
+    border-radius: 50px;
     cursor: pointer;
+    transition: .4s;
+    position: relative;
+}
+.mb-btn-toggle-bluetooth:before {
+    content: '';
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;
+    background-color: #192C4F;
+    position: absolute;
+    transform: scale(1.1); 
+    margin: 5px 5px;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
     transition: .4s;
 }
-
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    transition: .4s;
-}
-
-input:checked+.slider {
-    background-color: #2196F3;
-}
-
-input:focus+.slider {
-    box-shadow: 0 0 1px #2196F3;
-}
-
-input:checked+.slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-}
-
-/* Rounded sliders */
-.slider.round {
-    border-radius: 34px;
-}
-
-.slider.round:before {
-    border-radius: 50%;
-}
-
-
-
-/* The switch - the box around the slider */
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-}
-
-/* Hide default HTML checkbox */
-.switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
-
-/* The slider */
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    transition: .4s;
-}
-
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    transition: .4s;
-}
-
-input:checked+.slider {
-    background-color: #2196F3;
-}
-
-input:focus+.slider {
-    box-shadow: 0 0 1px #2196F3;
-}
-
-input:checked+.slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-}
-
-/* Rounded sliders */
-.slider.round {
-    border-radius: 34px;
-}
-
-.slider.round:before {
-    border-radius: 50%;
+.mb-btn-toggle-bluetooth:checked::before {
+    left: 60px;
+    background-color:#F9B233;
 }
 
 /* COLETAR DIGITAL F */
@@ -585,6 +489,7 @@ input:checked+.slider:before {
     color: #FFFFFF;
     margin-left: 95px;
 }
+
 .mb-position-bottom {
     height: 130px;
     display: flex;
@@ -592,6 +497,7 @@ input:checked+.slider:before {
     align-items: center;
     justify-content: center;
 }
+
 .mb-text-main {
     font-family: 'Hind';
     font-weight: 600;
@@ -783,6 +689,7 @@ input:checked+.slider:before {
     cursor: pointer;
     margin: 0 15px 0 15px;
 }
+
 .mb-question-help:focus {
     border: 3px solid #F9B233;
 }
@@ -851,7 +758,6 @@ input:checked+.slider:before {
 /* COISAS PARA FAZER */
 
 /* ajustar seta voltar (página) com link */
-/* botão ajuda-motorista quando ser selicionado, ficar de outra cor */
 /* fazer javascript do botão modo escurto/modo claro */
 /* fazer javascript botão on/off */
 /* adicionar sinalização do motorista + javascript */

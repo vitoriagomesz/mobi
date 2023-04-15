@@ -71,4 +71,28 @@ function comparePassword() {
     }
 }
 
+// DROPDOWN PERGUNTAS - POLÍTICA DA PRIVACIDADE
+
+const botaoExibir = document.getElementById("mb-btn-mostrar");
+const elementoEscondido = document.getElementById("mb-elemento-escondido");
+
+botaoExibir.addEventListener("click", function () {
+    elementoEscondido.style.display = "block";
+});
+// fazer a volta do dropdown
+
+// SETA DROPDOWN PERGUNTAS - POLÍTICA DA PRIVACIDADE
+const botaoSeta = document.getElementById("mb-btn-mostrar");
+const setaOpen = document.querySelector(".mb-seta-open");
+
+botaoSeta.addEventListener("click", function () {
+    if (setaOpen.classList.contains("mb-seta-open")) {
+        setaOpen.classList.remove("mb-seta-open");
+        setaOpen.classList.add("mb-seta-lock");
+    } else {
+        setaOpen.classList.remove("mb-seta-lock");
+        setaOpen.classList.add("mb-seta-open");
+    }
+});
+
 

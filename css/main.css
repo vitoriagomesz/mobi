@@ -151,6 +151,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .mb-titulo-btn {
     width: 570px;
     display: flex;
@@ -158,6 +159,7 @@
     justify-content: space-between;
     padding: 10px;
 }
+
 .mb-btn-toggle-bluetooth {
     width: 105px;
     height: 45px;
@@ -168,6 +170,7 @@
     transition: .4s;
     position: relative;
 }
+
 .mb-btn-toggle-bluetooth:before {
     content: '';
     width: 34px;
@@ -175,15 +178,16 @@
     border-radius: 50px;
     background-color: #192C4F;
     position: absolute;
-    transform: scale(1.1); 
+    transform: scale(1.1);
     margin: 5px 5px;
     top: 0;
     left: 0;
     transition: .4s;
 }
+
 .mb-btn-toggle-bluetooth:checked::before {
     left: 60px;
-    background-color:#F9B233;
+    background-color: #F9B233;
 }
 
 /* COLETAR DIGITAL F */
@@ -419,13 +423,19 @@
     align-items: flex-start;
 }
 
-.mb-seta-pp {
+#mb-btn-mostrar {
     width: 51px;
     height: 51px;
+    background-color: transparent;
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+.mb-seta-open {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
 }
 
 ::-webkit-scrollbar {
@@ -446,6 +456,32 @@
     align-items: center;
     justify-content: center;
 }
+
+#mb-elemento-escondido {
+    width: 939px;
+    height: 122px;
+    border: 3px solid #77BBED;
+    border-radius: 0px 0px 15px 15px;
+    margin: -33px 0 0 65px;
+    display: none;
+}
+
+.mb-text-sub-question {
+    font-family: 'Hind';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    color: #FFFFFF;
+    display: flex;
+    margin: 20px 15px;
+}
+
+.mb-checkbox-pp {
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+}
+
 
 /* POLÍTICA DE PRIVACIDADE K */
 .mb-bloco-blue {

@@ -102,6 +102,11 @@
     align-items: center;
 }
 
+.mb-grafismo {
+    background-image: url("../imgs/grafismo.svg");
+    background-repeat: no-repeat;
+}
+
 /* CADASTRO D */
 .span-required {
     font-family: 'Hind';
@@ -263,11 +268,11 @@
     background-color: #1A345B;
 }
 
-/*.mb-background-sinal-moto {
-    position: absolute;
-    z-index: 0;
+.mb-sinalizaçao-moto {
+    background-image: url("../imgs/sinalizaçao-moto.svg");
+    background-repeat: no-repeat;
 }
-*/
+
 .mb-position-colunas-moto {
     display: flex;
     flex-direction: row;
@@ -347,6 +352,12 @@
 }
 
 /* CÂMERAS MOTORISTA O */
+.mb-seta-volta-moto {
+    position: absolute;
+    left: 111px;
+    top: 400px;
+}
+
 .mb-position-cameras {
     display: flex;
     flex-wrap: wrap;
@@ -424,8 +435,8 @@
 }
 
 #mb-btn-mostrar {
-    width: 51px;
-    height: 51px;
+    width: 45px;
+    height: 45px;
     background-color: transparent;
     border: none;
     display: flex;
@@ -433,6 +444,23 @@
     justify-content: center;
     cursor: pointer;
 }
+
+.mb-btn-mostrar1 {
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.mb-seta-lock {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+}
+
 .mb-seta-open {
     transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
@@ -481,7 +509,6 @@
     height: 38px;
     cursor: pointer;
 }
-
 
 /* POLÍTICA DE PRIVACIDADE K */
 .mb-bloco-blue {
@@ -793,7 +820,5 @@
 
 /* COISAS PARA FAZER */
 
-/* ajustar seta voltar (página) com link */
 /* fazer javascript do botão modo escurto/modo claro */
-/* fazer javascript botão on/off */
 /* adicionar sinalização do motorista + javascript */

@@ -72,27 +72,22 @@ function comparePassword() {
 }
 
 // DROPDOWN PERGUNTAS - POLÍTICA DA PRIVACIDADE
-
 const botaoExibir = document.getElementById("mb-btn-mostrar");
 const elementoEscondido = document.getElementById("mb-elemento-escondido");
+const setaDireita = document.querySelector(".mb-seta-lock");
 
 botaoExibir.addEventListener("click", function () {
-    elementoEscondido.style.display = "block";
-});
-// fazer a volta do dropdown
+    if (elementoEscondido.style.display == "none" && setaDireita.classList.contains("mb-seta-open")) {
+        elementoEscondido.style.display = "block";
+        setaDireita.classList.remove("mb-seta-open");
+        setaDireita.classList.add("mb-seta-lock");
 
-// SETA DROPDOWN PERGUNTAS - POLÍTICA DA PRIVACIDADE
-const botaoSeta = document.getElementById("mb-btn-mostrar");
-const setaOpen = document.querySelector(".mb-seta-open");
-
-botaoSeta.addEventListener("click", function () {
-    if (setaOpen.classList.contains("mb-seta-open")) {
-        setaOpen.classList.remove("mb-seta-open");
-        setaOpen.classList.add("mb-seta-lock");
     } else {
-        setaOpen.classList.remove("mb-seta-lock");
-        setaOpen.classList.add("mb-seta-open");
+        elementoEscondido.style.display = "none";
+        setaDireita.classList.remove("mb-seta-lock");
+        setaDireita.classList.add("mb-seta-open");
     }
+
 });
 
-
+// arrumar seta

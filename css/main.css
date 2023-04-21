@@ -233,10 +233,13 @@
 }
 
 .mb-position-btns-help {
+    width: 1245px;
+    height: 289px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .mb-position-btns-bottom {
@@ -293,7 +296,6 @@
 .mb-home-mapa {
     width: 583px;
     height: 431px;
-    background-color: #2196F3;
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -305,6 +307,9 @@
     border-radius: 10px;
     cursor: pointer;
     border: 1px solid #000000;
+}
+.mb-btn-one-home-moto:focus {
+    border: 2px solid #F29E07;
 }
 
 .mb-position-btn-moto {
@@ -687,6 +692,9 @@
     border: 5px solid #77BBED;
     border-radius: 15px;
     margin: 30px;
+}
+.mb-card:focus{
+    border: 2px solid #F29E07;
 }
 
 .mb-container-position-retangulo {

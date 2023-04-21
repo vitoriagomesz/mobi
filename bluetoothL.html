@@ -24,12 +24,39 @@
         <div class="mb-background-retangulo">
             <div class="mb-titulo-btn mb-margin-bottom-35">
                 <p class="mb-text-destaque">Bluetooth</p>
-                <input type="checkbox" class="mb-btn-toggle-bluetooth">
+                <input type="checkbox" class="mb-btn-toggle-bluetooth" onclick="swapDivs()">
             </div>
-            <div class="mb-background-retangulo2-bluetooth">
-                <p class="mb-text-white">Nenhum dispositivo encontrado.</p>
+
+            <div class="mb-background-retangulo2-bluetooth mb-bluetooth-block">
+                <p class="mb-text-white mb-margin-22">Nenhum dispositivo encontrado.</p>
             </div>
-        </div>
+
+            <div class="mb-background-retangulo2-bluetooth mb-bluetooth-none">
+                <p class="mb-text-white mb-margin-22">Dispositivos encontrados:</p>
+
+                <section class="mb-container-dispositivos">
+                    <div class="mb-position-dispositivos">
+                        <p class="mb-nome-bluetooth">Mobi</p>
+                        <p class="mb-nome-bluetooth-conectado">conectado</p>
+                    </div>
+                    <div class="mb-linha-horizontal"></div>
+                    <div class="mb-position-dispositivos">
+                        <p class="mb-nome-bluetooth">MiniChef</p>
+                        <p class="mb-nome-bluetooth-desconectado">desconectado</p>
+                    </div>
+                    <div class="mb-linha-horizontal"></div>
+                    <div class="mb-position-dispositivos">
+                        <p class="mb-nome-bluetooth">SenSafe</p>
+                        <p class="mb-nome-bluetooth-desconectado">desconectado</p>
+                    </div>
+                    <div class="mb-linha-horizontal"></div>
+                    <div class="mb-position-dispositivos">
+                        <p class="mb-nome-bluetooth">Fluorê</p>
+                        <p class="mb-nome-bluetooth-desconectado">desconectado</p>
+                    </div>
+                    <div class="mb-linha-horizontal"></div>
+                </section>
+            </div>
     </section>
     <script src="js/main.js"></script>
 </body>

@@ -195,6 +195,58 @@
     background-color: #F9B233;
 }
 
+.mb-bluetooth-block {
+    display: block;
+}
+
+.mb-bluetooth-none {
+    display: none;
+}
+
+.mb-nome-bluetooth {
+    font-family: 'Hind';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+.mb-container-dispositivos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mb-position-dispositivos {
+    width: 465px;
+    padding: 10px 20px 10px 20px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mb-nome-bluetooth-conectado {
+    font-family: 'Hind';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 29px;
+    color: #F9B233;
+    cursor: pointer;
+}
+
+.mb-nome-bluetooth-desconectado {
+    font-family: 'Hind';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #DADADA;
+    cursor: pointer;
+}
+.mb-linha-horizontal {
+    width: 465px;
+    border: 1px solid #77BBED;
+}
+
 /* COLETAR DIGITAL F */
 .mb-position-text-digital {
     width: 580px;
@@ -308,6 +360,7 @@
     cursor: pointer;
     border: 1px solid #000000;
 }
+
 .mb-btn-one-home-moto:focus {
     border: 2px solid #F29E07;
 }
@@ -693,7 +746,8 @@
     border-radius: 15px;
     margin: 30px;
 }
-.mb-card:focus{
+
+.mb-card:focus {
     border: 2px solid #F29E07;
 }
 

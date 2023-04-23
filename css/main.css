@@ -639,6 +639,7 @@
     display: flex;
     flex-direction: row;
 }
+
 .mb-fundo-navbar {
     width: 100px;
     height: 935px;
@@ -646,6 +647,7 @@
     top: 0px;
     background: linear-gradient(180deg, #F9B233 12.5%, #BBB68C 45.83%, #77BBED 82.81%);
 }
+
 .mb-container-nav {
     height: 935px;
     display: flex;
@@ -663,12 +665,16 @@
     width: 35px;
     height: 35px;
     margin: 25px;
+    cursor: pointer;
 }
+
 .mb-icone-config {
     width: 40px;
     height: 40px;
     margin: 25px;
+    cursor: pointer;
 }
+
 .mb-graficos {
     margin: 30px auto;
 }
@@ -928,8 +934,3 @@
 .mb-margin-left-150 {
     margin-left: 150px;
 }
-
-/* COISAS PARA FAZER */
-
-/* fazer javascript do botão modo escurto/modo claro */
-/* adicionar sinalização do motorista + javascript */

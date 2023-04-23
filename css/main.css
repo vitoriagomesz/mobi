@@ -210,12 +210,14 @@
     line-height: 35px;
     color: #FFFFFF;
 }
+
 .mb-container-dispositivos {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 .mb-position-dispositivos {
     width: 465px;
     padding: 10px 20px 10px 20px;
@@ -225,6 +227,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .mb-nome-bluetooth-conectado {
     font-family: 'Hind';
     font-weight: 400;
@@ -242,6 +245,7 @@
     color: #DADADA;
     cursor: pointer;
 }
+
 .mb-linha-horizontal {
     width: 465px;
     border: 1px solid #77BBED;
@@ -324,7 +328,7 @@
 }
 
 .mb-sinalizaçao-moto {
-    background-image: url("../imgs/sinalizaçao-moto.svg");
+    background-image: url("../imgs/teste.svg");
     background-repeat: no-repeat;
 }
 
@@ -335,7 +339,7 @@
     align-items: center;
     position: relative;
     z-index: 100;
-    margin: 60px;
+    margin: 45px;
 }
 
 .mb-positino-box-one {
@@ -629,6 +633,51 @@
     justify-content: center;
     margin: 30px auto;
 }
+
+/* HOME GESTOR Q */
+.mb-container-home {
+    display: flex;
+    flex-direction: row;
+}
+.mb-fundo-navbar {
+    width: 100px;
+    height: 935px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, #F9B233 12.5%, #BBB68C 45.83%, #77BBED 82.81%);
+}
+.mb-container-nav {
+    height: 935px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mb-icones-navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mb-icones-navbar img {
+    width: 35px;
+    height: 35px;
+    margin: 25px;
+}
+.mb-icone-config {
+    width: 40px;
+    height: 40px;
+    margin: 25px;
+}
+.mb-graficos {
+    margin: 30px auto;
+}
+
+.mb-graficos img {
+    width: 1236px;
+    height: 850px;
+}
+
 
 /* CLASSES UTILITÁRIAS */
 

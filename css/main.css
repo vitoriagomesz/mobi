@@ -684,6 +684,53 @@
     height: 850px;
 }
 
+@media screen and (max-width: 1366px) {
+
+    .mb-grafismo {
+        background-image: url("../imgs/grafismo-menor.svg");
+        background-repeat: no-repeat;
+    }
+
+    /* HOME MOTORISTA N */
+    .mb-sinalizaçao-moto {
+        background-image: url("../imgs/sinalizacao-menor.svg");
+        background-repeat: no-repeat;
+    }
+    .mb-position-colunas-moto {
+        margin: 95px;
+    }
+    .mb-positino-box-one {
+        margin: 30px 15px 30px 30px;
+    }
+    .mb-positino-box-two {
+        margin: 30px 30px 30px 15px;
+    }
+    .mb-position-btn-moto {
+        margin: 5px;
+    }
+
+    /* HOME GESTOR Q */
+    .mb-fundo-navbar {
+        width: 100px;
+        height: 1024px;
+    }
+
+    .mb-graficos {
+        margin: 75px auto;
+    }
+
+    .mb-container-nav {
+        height: 1020px;
+    }
+
+    /* CÂMERAS DO MOTORISTA O */
+    .mb-seta-volta-moto img {
+        margin: 10px;
+        width: 120px;
+        height: 120px;
+    }
+}
+
 
 /* CLASSES UTILITÁRIAS */
 

@@ -13,7 +13,7 @@ Isso conectou o nosso projeto com as **Stmarts Cities**, pois muito é se falado
 
 :bus: O nosso principal objetivo é **melhorar o bem-estar no transporte público e valorizar a coletividade na mobilidade urbana.**
 
-É posspivel conferir mais sobre o projeto em:
+É possível conferir mais sobre o projeto em:
 
 -----
 

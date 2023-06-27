@@ -13,7 +13,7 @@ Isso conectou o nosso projeto com as **Stmarts Cities**, pois muito é se falado
 
 :bus: O nosso principal objetivo é **melhorar o bem-estar no transporte público e valorizar a coletividade na mobilidade urbana.**
 
-É possível conferir mais sobre o projeto em:
+É possível conferir mais sobre o projeto em: https://www.behance.net/gallery/174063751/Mobi-Mobile-Physical-Computing
 
 -----
 
@@ -28,5 +28,5 @@ This connected our project with the **Stmarts Cities**, as much is said about Sm
 
 :bus: Our main objective is to **improve well-being in public transport and value community in urban mobility.**
 
-You can check out more about the project at:
+You can check out more about the project at: https://www.behance.net/gallery/174063751/Mobi-Mobile-Physical-Computing
 

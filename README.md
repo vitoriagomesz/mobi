@@ -8,7 +8,7 @@ O mobi nasceu da vontade de juntar **acessibilidade com tecnologia**.
 
 :bulb: No começo, nossos olhares se voltaram para a falta de acessibilidade nos transportes públicos, principalmente nos ônibus. Com isso, decidimos criar um projeto onde envolvesse trazer mais acessibilidade e conforto para os usuários deste meio de transporte, por meio da tecnologia. 
 
-:mag_right: Em pesquisas, nós nos deparamos com a área de **Design Especulativo**, em que ela questiona o passado e o presente visando os seus projetos para o futuro, trazendo uma abordagem inovadora e ficanhdo entre a linha do possível e impossível.
+:mag_right: Em pesquisas, nós nos deparamos com a área de **Design Especulativo**, em que ela questiona o passado e o presente visando os seus projetos para o futuro, trazendo uma abordagem inovadora e ficando entre a linha do possível e impossível.
 Isso conectou o nosso projeto com as **Stmarts Cities**, pois muito é se falado sobre as Casas Inteligentes, as Cidades Inteligentes, mas para isso, precisamos de uma **mobilidade urbana inteligente**, e nós decidimos dar um passo nessa direção. 
 
 :bus: O nosso principal objetivo é **melhorar o bem-estar no transporte público e valorizar a coletividade na mobilidade urbana.**
